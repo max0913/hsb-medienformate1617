@@ -1,0 +1,19 @@
+#include <iostream>
+#include "CubicBezier.h"
+#include "point.h"
+
+using namespace std;
+
+
+// int add(int x, int y); // forward declaration using function prototype
+
+
+
+int main()
+{
+    CubicBezier cb;
+    // cb.setValues(0,0,0,1,2,1,2,0);
+    //cb.setValues(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0);
+
+    return 0;
+}

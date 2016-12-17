@@ -1,0 +1,37 @@
+#ifndef POINT_H
+#define POINT_H
+#include "CubicBezier.h"
+
+class point
+{
+
+public:
+    float x,y;
+    /** Default constructor */
+    point();
+    /** Default destructor */
+    virtual ~point();
+    point(float a, float b);
+
+};
+
+point::point()
+{
+    //ctor
+}
+
+point::~point()
+{
+    //dtor
+}
+
+
+
+point::point(float a, float b)
+{
+    x = a;
+    y = b;
+}
+
+
+#endif // POINT_H

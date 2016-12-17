@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1481738622 source:u:\cpp\mformate999\lab7.1\main.cpp
+	<iostream>
+	"CubicBezier.h"
+	"point.h"
+
+1481828287 
+
+1481825124 u:\cpp\mformate999\lab7.1\include\cubicbezier.h
+	"../src/CubicBezier.cpp"
+	"point.h"
+
+1481739139 u:\cpp\mformate999\lab7.1\src\cubicbezier.cpp
+	"CubicBezier.h"
+
+1481828346 er.h"
+
+1481739065 u:\cpp\mformate999\lab7.1\include\point.h
+
+1481827890 source:u:\cpp\mformate999\lab7.1\cubicbezier.cpp
+	"CubicBezier.h"
+
+1481828287 u:\cpp\mformate999\lab7.1\cubicbezier.h
+	"point.h"
+
+1481828346 u:\cpp\mformate999\lab7.1\point.h
+	"CubicBezier.h"
+
+1481982197 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.cpp
+	"CubicBezier.h"
+
+1481984325 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.h
+	"point.h"
+
+1481984729 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.h
+
+1481977340 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/main.cpp
+	<iostream>
+	"point.h"
+	"CubicBezier.h"
+
+1481972883 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.cpp
+	"point.h"
+

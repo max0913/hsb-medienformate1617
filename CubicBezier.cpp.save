@@ -1,0 +1,59 @@
+#include "CubicBezier.h"
+
+
+
+CubicBezier::CubicBezier()
+{
+    //ctor
+}
+
+CubicBezier::~CubicBezier()
+{
+    //dtor
+}
+
+// Constructor
+CubicBezier::CubicBezier(float a,float b,float c,float d,float e,float f,float g,float h)
+{
+    p[0].x=a;
+    p[0].y=b;
+    p[1].x=c;
+    p[1].y=d;
+    p[2].x=e;
+    p[2].y=f;
+    p[3].x=g;
+    p[3].y=h;
+
+}
+//CubicBezier::CubicBezier(float )
+//{
+//    p1.x=p1x;
+//    p1.y=p1y;
+//    p2.x=p2x;
+//    p1.y=p2y;
+//    p3.x=p3x;
+//    p3.y=p3y;
+//    p4.x=p4x;
+//    p4.y=p4y;
+//}
+
+void CubicBezier::subdivide( float t, CubicBezier *segment1, CubicBezier *segment2)
+{
+
+}
+
+
+void CubicBezier::setValues(float a,float b,float c,float d,float e,float f,float g,float h)
+{
+    p1x=a;
+    p1y=b;
+    p2x=c;
+    p2y=d;
+    p3x=e;
+    p3y=f;
+    p4x=g;
+    p4y=h;
+
+}
+
+
