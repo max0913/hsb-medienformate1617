@@ -10,7 +10,6 @@ point::~point()
     //dtor
 }
 
-
 point::point(float a, float b)
 {
     x = a;

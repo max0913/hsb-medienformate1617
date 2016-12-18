@@ -26,19 +26,20 @@
 1481828346 u:\cpp\mformate999\lab7.1\point.h
 	"CubicBezier.h"
 
-1481982197 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.cpp
+1482081162 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.cpp
 	"CubicBezier.h"
 
-1481984325 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.h
+1482079939 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/CubicBezier.h
 	"point.h"
 
-1481984729 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.h
+1482065061 /home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.h
 
-1481977340 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/main.cpp
+1482081121 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/main.cpp
 	<iostream>
 	"point.h"
 	"CubicBezier.h"
+	<vector>
 
-1481972883 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.cpp
+1482081179 source:/home/maximbex/cpp/cpp/MFormate999/Lab7.1/point.cpp
 	"point.h"
 

@@ -1,18 +1,12 @@
 #include "CubicBezier.h"
-
-
+//CubicBezier(point bezierPunktArray [4]= { point ( 0.0,  0.0), point ( 0.0,  0.0), point ( 0.0,  0.0), point ( 0.0,  0.0)});
 
 CubicBezier::CubicBezier()
 {
     //ctor
 
-
     //this.t = 0.5; // führt zu :
     // error: request for member ‘t’ in ‘this’, which is of pointer type ‘CubicBezier* const’ (maybe you meant to use ‘->’ ?)|
-
-    public
-CubicBezier(point bezierPunktArray [4]={ point ( 0.0,  0.0), point ( 0.0,  0.0), point ( 0.0,  0.0), point ( 0.0,  0.0)});
-
 }
 
 CubicBezier::~CubicBezier()
@@ -52,7 +46,6 @@ void CubicBezier::subdivide( float t, CubicBezier *segment1, CubicBezier *segmen
 
 }
 
-
 // setter
 void CubicBezier::setValues(float a,float b,float c,float d,float e,float f,float g,float h)
 {
@@ -82,4 +75,14 @@ void CubicBezier::setValues1(float a,float b,float c,float d,float e,float f,flo
 
 
 }
+
+// Constructor
+CubicBezier::CubicBezier(point,point,point,point,point,point,point,point)
+{
+ point p1 = point(0,0);
+ point p2 = point(0,0);
+ point p3 = point(0,0);
+ point p4 = point(0,0);
+}
+
 
